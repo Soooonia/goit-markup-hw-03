@@ -112,7 +112,7 @@ img {
 }
 
 .header-mail {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
@@ -224,6 +224,7 @@ img {
   letter-spacing: var(--letter-spacing);
   margin-bottom: 72px;
   text-align: center;
+  padding-bottom: 120px;
 }
 .general-list{
   display: flex;
@@ -260,11 +261,16 @@ img {
 }
 .team-caption {
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-transform: capitalize;
   letter-spacing: var(--letter-spacing);
   margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
+}
+.team-text{
+padding-bottom: 8px;
+padding-top: 32px;
 }
 .team-subtitle {
   font-weight: 400;
@@ -273,6 +279,7 @@ img {
   letter-spacing: var(--letter-spacing);
   color: var(----secondary-text-color);
   padding-bottom: 32px;
+  text-align: center;
 }
 /* ------------------FOOter------------------- */
 
@@ -283,7 +290,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-accent-color);
   margin-top: 16px;
-  margin-left: 156px;
   width: 264px;
 }
 .footer-span {
@@ -301,7 +307,6 @@ img {
   letter-spacing: var(--letter-spacing);
   color:var(--other-color);
   margin-top: 16px;
-  margin-left: 156px;
   width: 264px;
 }
 .footer {
