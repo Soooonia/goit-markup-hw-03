@@ -355,6 +355,7 @@ padding-top: 32px;
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  border-radius: 4px;
 }
 .other-btn {
   font-style: inherit;
